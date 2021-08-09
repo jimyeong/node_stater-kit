@@ -13,8 +13,8 @@ module.exports = class Mentor extends Sequelize.Model{
             sequelize,
             paranoid: false,
             timestamps: false,
-            tableName: "users",
-            modelName: "User",
+            tableName: "mentors",
+            modelName: "Mentor",
             charset: "utf8",
             collate: "utf8_general_ci"
         })
